@@ -1,0 +1,13 @@
+import javax.swing.JOptionPane;
+
+public class pruebaGiHub{
+
+public static void main(String[] args){
+	
+	String nombre="";
+	
+	nombre=JOptionPane.showInputDialog("ingrese su nombre")
+	
+	System.out.println("Hola, buenos dia "+nombre+" !!!");
+ }
+}
